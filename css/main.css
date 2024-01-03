@@ -1,0 +1,390 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ a{
+	   text-decoration:none;
+   }
+ul{
+	list-style:none;
+    margin: 0px;
+	padding:0px;
+	
+}
+ul li a{
+	text-decoration:none;
+}
+section#header{
+	background-color:#fff;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.logo{}
+.logo{}
+.logo img{}
+.info_top{
+	
+}
+.info_top select{
+	margin-bottom: 5px;
+	width: 100%;
+}
+.info_top i{
+	font-size: 18px;
+	margin-right: 10px;
+}
+.info_top p{
+	color: #414141;
+	margin: 0;
+}
+.info_top a{
+	color: #414141;
+	text-decoration: none;
+}
+section#menubar{
+	background: rgba(0, 0, 0, 0) url("../img/bg_menu.png") repeat-x scroll 0 0;
+	border-bottom:4px solid #98ca48;
+}
+.main_menu{
+	
+}
+.main_menu li{
+	background: rgba(0, 0, 0, 0) url("../img/bg_menu.png") repeat-x scroll 0 0;
+}
+.main_menu li a{
+	color: #fff;
+	padding: 14px 10px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.main_menu li a:hover{
+	background-color:#8839FF;
+	
+}
+.custom{
+	border-radius:0px;
+	border:0px;
+	margin-bottom:0px;
+	min-height:0px;
+}
+.bg_nav{
+	background: rgba(0, 0, 0, 0) url("../img/bg_menu.png") repeat-x scroll 0 0;
+	margin-top:0px;
+	padding-top:0px;
+}
+.me{
+	background: #91549D none repeat scroll 0 0;
+	color: #fff;
+}
+
+.search_box{
+	margin-top: 8px;
+}
+.search_box input[type="search"]{
+	background: #91549d none repeat scroll 0 0;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	color: #fff;
+	height: 29px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.search_box button{
+	background: transparent none repeat scroll 0 0;
+	border: 0 none;
+	color: #fff;
+	position: absolute;
+	right: 20px;
+	top: 14px;
+}
+section#slider{}
+.lsarrow{}
+.rsarrow{}
+.sld{background: transparent none repeat scroll 0 0 !important;}
+section#welcome{
+	margin-top:48px;
+}
+.welcome_ttl{}
+.welcome_ttl h2{
+	color:#004b8d;
+	font-size:35px;
+}
+.welcome_box{}
+.welcome_image{
+	margin-right:20px;
+}
+.welcome_image img{
+	float:left;
+}
+.wellcome_text{
+	float:right;
+}
+.wellcome_text p{
+	font-size:15px;
+	background-color:red;
+}
+.welcome_box button,.event_text button{
+	background: transparent none repeat scroll 0 0;
+	border: medium none;
+}
+.welcome_box button{
+	background: transparent none repeat scroll 0 0;
+	border: medium none;
+	margin-top: 70px;
+}
+
+.testimonial_ttl{}
+.testimonial_ttl h3{
+	color:#004b8d;
+	font-size:25px;
+}
+.testimonial_text{
+	background-color:#8a8a89;
+}
+.testimonial_text p{
+	color: #fff;
+	font-size: 14px;
+	padding: 10px;
+}
+.client{
+	padding-top: 15px;
+}
+.client img{
+	float:left;
+	margin-right:20px;
+}
+.client_name{
+	color:#353535;
+}
+.client_name h5{
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.client_name p{
+	font-size:12px;
+}
+.testimonial_text span{}
+section#event{
+	padding-top:45px;
+}
+.event_box{}
+.event_ttl{
+	padding-bottom: 0;
+}
+.event_ttl img{
+	float: left;
+	margin-right: 20px;
+}
+.event_ttl h3{
+	color:#004b8d;
+	font-size:25px;
+	margin: 0;
+	padding-top: 20px;
+}
+.event_text{
+	padding-top: 30px;
+}
+.event_text p{
+	color:#4f4f4f;
+	font-size:13px;
+}
+.event_text button{
+	margin-top: 32px;
+	padding: 0;
+}
+.event_box{}
+section#news{
+	padding-top:60px;
+}
+.news_ttl{
+	border-bottom: 1px solid #d7d7d7;
+}
+.news_ttl h2{
+	color:#004b8d;
+	font-size:30px;
+}
+.news_box{
+	margin-top:8px;
+}
+.news_img{}
+.news_img img{}
+.news_text{}
+.news_text h5{
+	color:#272727;
+	font-size:14px;
+	margin-bottom:0px;
+}
+.news_text p{
+	color:#4f4f4f;
+	font-size:12px;
+	
+}
+.news_list{}
+.news_list li{
+	margin-top: 8px;
+}
+.news_list i{
+	background: #8cc63e none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	margin-right: 10px;
+	padding: 4px;
+}
+.news_list li a{
+	color:#4f4f4f;
+	font-size:12px;
+	text-decoration:none;
+}
+.news_blog{}
+.news_blog h4{
+	color: #1866aa;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+.news_blog p{
+	color:#373737;
+	font-size:13px;
+}
+.news_blog span{
+	color:#1866aa;
+	font-size:13px;
+}
+section#newsletter{
+	padding-top:50px;
+}
+.subscribe_box{}
+section#bottom{
+	background-color:#3e3e3e;
+	padding:40px 0px;
+	
+}
+.bottom_box{
+	color: #fff;
+}
+.bottom-box:last-child{
+	border-right: red;
+}
+.btm_ttl{}
+.btm_ttl h2{
+	font-size: 18px;
+margin-top: 0;
+text-transform: capitalize;
+}
+.btm_link{}
+.btm_link li{
+	margin-top:8px;
+}
+.btm_link i{
+	margin-right:10px;
+}
+.btm_link li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+}
+.scl{}
+.scl ul {}
+.scl ul li{
+	float:left;
+	margin-top:15px;
+	margin-right:10px;
+}
+.scl ul li a{}
+section#footer{
+	background:#282828;
+	padding:20px 0px;
+}
+.footer_main{
+	color:#fff;
+}
+.footer_main p{
+	font-size:15px;
+}
